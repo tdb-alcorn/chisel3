@@ -99,7 +99,8 @@ lazy val chiselSettings = Seq (
     "org.scalatest" %% "scalatest" % "3.0.1" % "test",
     "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
     "com.github.scopt" %% "scopt" % "3.7.0",
-    "com.storm-enroute" %% "scalameter" % "0.10" % "bench"
+    "com.storm-enroute" %% "scalameter" % "0.10" % "bench",
+    "linked-map" %% "linked-map" % "0.1.0-SNAPSHOT"
   ),
 
   // Tests from other projects may still run concurrently
